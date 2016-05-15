@@ -22,6 +22,7 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
         url: '/input',
         templateUrl: '/partials/home-input.html'
         
+        
     })
 
     .state('home.api', {

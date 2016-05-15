@@ -1,0 +1,12 @@
+<h1>Random Famous Quotes</h1>
+
+<input ng-model="wiseQuotes"></input>
+<button ng-click="getRandomQuotes()">Submit</button>
+<p ng-repeat="post in posts">{{post.data.title}}</p>
+
+<!--{
+ "quote": "Once you eliminate the impossible, whatever remains, no matter how improbable, must be the truth.",
+ "author": "Sherlock Holmes",
+ "category": "Famous",
+ "cat": ""
+}-->
