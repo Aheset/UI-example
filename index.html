@@ -1,23 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+<script src = "https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.0/angular-ui-router.min.js"></script>
+<script src="app.js"></script>
 
-       <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
-    <style>
-        .navbar { border-radius:0; }
-    </style>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
-    <script src = "https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.0/angular-ui-router.min.js"></script>
-    <script src="app.js"></script>
+	<title>Lily and Leah's App</title>
 </head>
-
 <body ng-app="routerApp">
-
 
 <nav class="navbar navbar-default" role="navigation">
     <div class="navbar-header">
-        <a class="navbar-brand" ui-sref="#">AngularUI Router</a>
+        <a class="navbar-brand" ui-sref="#">Our App with UI Router</a>
     </div>
     <ul class="nav navbar-nav">
         <li><a ui-sref="home">Home</a></li>
@@ -25,11 +20,10 @@
     </ul>
 </nav>
 
-<div class="container">
+	<div class = "container">
 
-<div ui-view></div>
+	<div ui-view></div>
 
-</div>
-
+	</div>
 </body>
 </html>
